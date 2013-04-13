@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  4/13/2013 12:00:33 PM
+PCBNEW-LibModule-V1  4/13/2013 4:10:53 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,6 +7,7 @@ ARM_10PIN
 LP3985
 MCP1640
 MCP73831
+MKL24Z64VFM4
 TEST_0.100
 TSSOP-8
 USB_MICRO_AB
@@ -254,6 +255,246 @@ Ne 0 ""
 Po 0 -1102
 $EndPAD
 $EndMODULE MCP73831
+$MODULE MKL24Z64VFM4
+Po 0 0 0 15 5169BBA6 00000000 ~~
+Li MKL24Z64VFM4
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1 1 0 0.15 N V 21 N "MKL24Z64VFM4"
+T1 0 5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 -1.75
+$EndPAD
+$PAD
+Sh "2" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 -1.25
+$EndPAD
+$PAD
+Sh "3" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 -0.75
+$EndPAD
+$PAD
+Sh "4" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 -0.25
+$EndPAD
+$PAD
+Sh "5" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 0.25
+$EndPAD
+$PAD
+Sh "6" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 0.75
+$EndPAD
+$PAD
+Sh "7" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 1.25
+$EndPAD
+$PAD
+Sh "8" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.475 1.75
+$EndPAD
+$PAD
+Sh "17" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 1.75
+$EndPAD
+$PAD
+Sh "18" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 1.25
+$EndPAD
+$PAD
+Sh "19" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 0.75
+$EndPAD
+$PAD
+Sh "20" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 0.25
+$EndPAD
+$PAD
+Sh "21" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 -0.25
+$EndPAD
+$PAD
+Sh "22" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 -0.75
+$EndPAD
+$PAD
+Sh "23" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 -1.25
+$EndPAD
+$PAD
+Sh "24" R 0.85 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.475 -1.75
+$EndPAD
+$PAD
+Sh "9" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 2.475
+$EndPAD
+$PAD
+Sh "10" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2.475
+$EndPAD
+$PAD
+Sh "11" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 2.475
+$EndPAD
+$PAD
+Sh "12" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 2.475
+$EndPAD
+$PAD
+Sh "13" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 2.475
+$EndPAD
+$PAD
+Sh "14" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 2.475
+$EndPAD
+$PAD
+Sh "15" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 2.475
+$EndPAD
+$PAD
+Sh "16" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 2.475
+$EndPAD
+$PAD
+Sh "25" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.75 -2.475
+$EndPAD
+$PAD
+Sh "26" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2.475
+$EndPAD
+$PAD
+Sh "27" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -2.475
+$EndPAD
+$PAD
+Sh "28" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -2.475
+$EndPAD
+$PAD
+Sh "29" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -2.475
+$EndPAD
+$PAD
+Sh "30" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -2.475
+$EndPAD
+$PAD
+Sh "31" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -2.475
+$EndPAD
+$PAD
+Sh "32" R 0.3 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 -2.475
+$EndPAD
+$PAD
+Sh "" R 3.4 3.4 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE MKL24Z64VFM4
 $MODULE TEST_0.100
 Po 0 0 0 15 514BA442 00000000 ~~
 Li TEST_0.100
