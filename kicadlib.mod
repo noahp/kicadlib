@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  5/14/2013 8:37:56 AM
+PCBNEW-LibModule-V1  5/14/2013 9:13:10 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -13,6 +13,8 @@ SWITCH_SLIDE_SSSS810701
 TEST_0.100
 TSSOP-8
 USB_MICRO_AB
+USB_MINI_B
+USB_MINI_B_np
 $EndINDEX
 $MODULE ABLS-8.000MHZ-B4-T
 Po 0 0 0 15 5169811E 00000000 ~~
@@ -771,4 +773,128 @@ Ne 0 ""
 Po 1.3 -2.85
 $EndPAD
 $EndMODULE USB_MICRO_AB
+$MODULE USB_MINI_B
+Po 0 0 0 15 519237E5 00000000 ~~
+Li USB_MINI_B
+Cd USB Mini-B 5-pin SMD connector
+Kw USB, Mini-B, connector
+Sc 0
+AR /51922596
+Op 0 0 0
+T0 -4.3 -0.7 1.016 1.016 0 0.2032 N V 21 N "J1"
+T1 0 -2.5 1.016 1.016 0 0.2032 N I 21 N "USB-MINI-B"
+DS -0.4 6.1 0.4 6.1 0.15 21
+DC -2.2 -0.9 -2.1 -0.9 0.15 21
+$PAD
+Sh "2" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.8 0
+$EndPAD
+$PAD
+Sh "3" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 0
+$EndPAD
+$PAD
+Sh "5" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.6 0
+$EndPAD
+$PAD
+Sh "1" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.6 0
+$EndPAD
+$PAD
+Sh "6" R 2.5 3.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2.5
+$EndPAD
+$PAD
+Sh "6" R 2.5 3.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2.5
+$EndPAD
+$EndMODULE USB_MINI_B
+$MODULE USB_MINI_B_np
+Po 0 0 0 15 51923861 00000000 ~~
+Li USB_MINI_B_np
+Cd USB Mini-B 5-pin SMD connector
+Kw USB, Mini-B, connector
+Sc 0
+AR /51922596
+Op 0 0 0
+T0 -4.3 -0.7 1.016 1.016 0 0.2032 N V 21 N "J1"
+T1 0 -2.5 1.016 1.016 0 0.2032 N I 21 N "USB-MINI-B_np"
+DS -0.4 6.1 0.4 6.1 0.15 21
+DC -2.2 -0.9 -2.1 -0.9 0.15 21
+$PAD
+Sh "2" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.8 0
+$EndPAD
+$PAD
+Sh "3" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 0
+$EndPAD
+$PAD
+Sh "5" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.6 0
+$EndPAD
+$PAD
+Sh "1" R 0.5 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.6 0
+$EndPAD
+$PAD
+Sh "6" R 2.5 3.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2.5
+$EndPAD
+$PAD
+Sh "6" R 2.5 3.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2.5
+$EndPAD
+$EndMODULE USB_MINI_B_np
 $EndLIBRARY
