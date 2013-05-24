@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  5/22/2013 3:42:51 PM
+PCBNEW-LibModule-V1  5/24/2013 8:47:55 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -16,6 +16,7 @@ USB_MICRO_AB
 USB_MINI_B
 USB_MINI_B_np
 XTAL_7A-8-000MAAE-T
+jmp_small
 $EndINDEX
 $MODULE ABLS-8.000MHZ-B4-T
 Po 0 0 0 15 5169811E 00000000 ~~
@@ -921,4 +922,27 @@ Ne 0 ""
 Po 1.85 0
 $EndPAD
 $EndMODULE XTAL_7A-8-000MAAE-T
+$MODULE jmp_small
+Po 0 0 0 15 519F6179 00000000 ~~
+Li jmp_small
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.032 1 1 0 0.15 N V 21 N "jmp_small"
+T1 0 1.9 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" T 1 1 0 0.25 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.635
+$EndPAD
+$PAD
+Sh "2" T 1 1 0 -0.25 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.635
+$EndPAD
+$EndMODULE jmp_small
 $EndLIBRARY
