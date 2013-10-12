@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  10/11/2013 3:56:36 PM
+PCBNEW-LibModule-V1  Sat 12 Oct 2013 03:43:41 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -17,7 +17,7 @@ USB_MINI_B
 USB_MINI_B_np
 XTAL_7A-8-000MAAE-T
 jmp_small
-lvk12
+smd_simple_pad
 $EndINDEX
 $MODULE ABLS-8.000MHZ-B4-T
 Po 0 0 0 15 5169811E 00000000 ~~
@@ -946,41 +946,20 @@ Ne 0 ""
 Po 0 0.635
 $EndPAD
 $EndMODULE jmp_small
-$MODULE lvk12
-Po 0 0 0 15 51FE8116 00000000 ~~
-Li lvk12
+$MODULE smd_simple_pad
+Po 0 0 0 15 5259A669 00000000 ~~
+Li smd_simple_pad
 Sc 0
-AR /51FE7DAB
+AR 
 Op 0 0 0
-T0 0 2.159 0.8 0.8 0 0.1 N V 21 N "R1"
-T1 0 -4.1 1.5 1.5 0 0.15 N I 21 N "LVK12-SHUNT"
+T0 0 -2.54 1 1 0 0.15 N V 21 N "smd_simple_pad"
+T1 0 2.54 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "1" R 1.75 1.1 0 0 0
+Sh "1" R 1 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 2 "VLOAD+"
-Po -1.375 -0.7
+Ne 0 ""
+Po 0 0
 $EndPAD
-$PAD
-Sh "4" R 1.75 1.1 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 4 "VLOAD_MEAS"
-Po -1.375 0.7
-$EndPAD
-$PAD
-Sh "2" R 1.75 1.1 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 3 "VLOAD-"
-Po 1.375 -0.7
-$EndPAD
-$PAD
-Sh "3" R 1.75 1.1 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 1 "GND"
-Po 1.375 0.7
-$EndPAD
-$EndMODULE lvk12
+$EndMODULE smd_simple_pad
 $EndLIBRARY
