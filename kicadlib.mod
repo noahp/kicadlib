@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  10/14/2013 9:03:15 AM
+PCBNEW-LibModule-V1  11/5/2013 6:59:49 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -19,6 +19,7 @@ USB_MINI_B_np
 XTAL_7A-8-000MAAE-T
 inductor_SRN5020
 jmp_small
+plcc2
 smd_simple_pad
 $EndINDEX
 $MODULE ABLS-8.000MHZ-B4-T
@@ -1036,6 +1037,29 @@ Ne 0 ""
 Po 0 0.635
 $EndPAD
 $EndMODULE jmp_small
+$MODULE plcc2
+Po 0 0 0 15 52798671 00000000 ~~
+Li plcc2
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 1.524 1.524 0 0.3048 N V 21 N "plcc2"
+T1 0 3 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.6 2.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.4 0
+$EndPAD
+$PAD
+Sh "2" R 1.6 2.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.4 0
+$EndPAD
+$EndMODULE plcc2
 $MODULE smd_simple_pad
 Po 0 0 0 15 5259A669 00000000 ~~
 Li smd_simple_pad
