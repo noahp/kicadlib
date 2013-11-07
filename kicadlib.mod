@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  11/5/2013 6:59:49 PM
+PCBNEW-LibModule-V1  11/7/2013 6:36:10 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -19,6 +19,7 @@ USB_MINI_B_np
 XTAL_7A-8-000MAAE-T
 inductor_SRN5020
 jmp_small
+med_test_hole
 plcc2
 smd_simple_pad
 $EndINDEX
@@ -1037,6 +1038,22 @@ Ne 0 ""
 Po 0 0.635
 $EndPAD
 $EndMODULE jmp_small
+$MODULE med_test_hole
+Po 0 0 0 15 527C23E6 00000000 ~~
+Li med_test_hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 0.75 0.75 0 0.15 N V 21 N "med_test_hole"
+T1 0 2 0.75 0.75 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE med_test_hole
 $MODULE plcc2
 Po 0 0 0 15 52798671 00000000 ~~
 Li plcc2
