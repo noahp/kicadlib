@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  11/7/2013 6:36:10 PM
+PCBNEW-LibModule-V1  11/10/2013 3:05:33 PM
 # encoding utf-8
 Units mm
 $INDEX
+16_pin_double
 ABLS-8.000MHZ-B4-T
 ARM_10_PIN
 ARM_10_PIN_SMT
@@ -20,9 +21,131 @@ XTAL_7A-8-000MAAE-T
 inductor_SRN5020
 jmp_small
 med_test_hole
+oled_fpc_30
 plcc2
 smd_simple_pad
 $EndINDEX
+$MODULE 16_pin_double
+Po 0 0 0 15 527FE70C 00000000 ~~
+Li 16_pin_double
+Sc 0
+AR /527FB068
+Op 0 0 0
+T0 0 -4.445 0.75 0.75 0 0.13 N V 21 N "J1"
+T1 0 1.905 0.75 0.75 0 0.13 N I 21 N "16_PIN_HDR"
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 1 "+3.3"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 14 "~CS"
+Po 0 -2.54
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 15 "~RST"
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 10 "DC/I2X_SA0"
+Po 2.54 -2.54
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 13 "R/W"
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 11 "E/RD"
+Po 5.08 -2.54
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 2 "D0/SPI_SCLK/I2C_SCK"
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 3 "D1/SPI_SDIN/I2C_SDA"
+Po 7.62 -2.54
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 4 "D2/I2C_SDA"
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 5 "D3"
+Po 10.16 -2.54
+$EndPAD
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 6 "D4"
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 7 "D5"
+Po 12.7 -2.54
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 8 "D6"
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 9 "D7"
+Po 15.24 -2.54
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 12 "GND"
+Po 17.78 0
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 12 "GND"
+Po 17.78 -2.54
+$EndPAD
+$EndMODULE 16_pin_double
 $MODULE ABLS-8.000MHZ-B4-T
 Po 0 0 0 15 5169811E 00000000 ~~
 Li ABLS-8.000MHZ-B4-T
@@ -1054,6 +1177,225 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE med_test_hole
+$MODULE oled_fpc_30
+Po 0 0 0 15 527FE5BB 00000000 ~~
+Li oled_fpc_30
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3 0.75 0.75 0 0.13 N V 21 N "oled_fpc_30"
+T1 0 -3 0.75 0.75 0 0.13 N V 21 N "VAL**"
+$PAD
+Sh "1" O 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.7 0
+$EndPAD
+$PAD
+Sh "3" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.4 0
+$EndPAD
+$PAD
+Sh "4" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.1 0
+$EndPAD
+$PAD
+Sh "5" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 0
+$EndPAD
+$PAD
+Sh "6" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "7" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 0
+$EndPAD
+$PAD
+Sh "8" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.9 0
+$EndPAD
+$PAD
+Sh "9" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.6 0
+$EndPAD
+$PAD
+Sh "10" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.3 0
+$EndPAD
+$PAD
+Sh "11" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "12" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.7 0
+$EndPAD
+$PAD
+Sh "13" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 0
+$EndPAD
+$PAD
+Sh "14" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.1 0
+$EndPAD
+$PAD
+Sh "15" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.8 0
+$EndPAD
+$PAD
+Sh "16" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10.5 0
+$EndPAD
+$PAD
+Sh "17" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.2 0
+$EndPAD
+$PAD
+Sh "18" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.9 0
+$EndPAD
+$PAD
+Sh "19" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 12.6 0
+$EndPAD
+$PAD
+Sh "20" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13.3 0
+$EndPAD
+$PAD
+Sh "21" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 14 0
+$EndPAD
+$PAD
+Sh "22" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 14.7 0
+$EndPAD
+$PAD
+Sh "23" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 15.4 0
+$EndPAD
+$PAD
+Sh "24" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 16.1 0
+$EndPAD
+$PAD
+Sh "25" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 16.8 0
+$EndPAD
+$PAD
+Sh "26" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 17.5 0
+$EndPAD
+$PAD
+Sh "27" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 18.2 0
+$EndPAD
+$PAD
+Sh "28" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 18.9 0
+$EndPAD
+$PAD
+Sh "29" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 19.6 0
+$EndPAD
+$PAD
+Sh "30" R 0.45 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 20.3 0
+$EndPAD
+$EndMODULE oled_fpc_30
 $MODULE plcc2
 Po 0 0 0 15 52798671 00000000 ~~
 Li plcc2
