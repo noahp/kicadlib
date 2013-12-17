@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  11/10/2013 3:05:33 PM
+PCBNEW-LibModule-V1  12/16/2013 9:42:32 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -20,10 +20,12 @@ USB_MINI_B_np
 XTAL_7A-8-000MAAE-T
 inductor_SRN5020
 jmp_small
+lvk12
 med_test_hole
 oled_fpc_30
 plcc2
 smd_simple_pad
+sot23-8
 $EndINDEX
 $MODULE 16_pin_double
 Po 0 0 0 15 527FE70C 00000000 ~~
@@ -1161,6 +1163,43 @@ Ne 0 ""
 Po 0 0.635
 $EndPAD
 $EndMODULE jmp_small
+$MODULE lvk12
+Po 0 0 0 15 51FE8116 00000000 ~~
+Li lvk12
+Sc 0
+AR /51FE7DAB
+Op 0 0 0
+T0 0 2.159 0.8 0.8 0 0.1 N V 21 N "R1"
+T1 0 -4.1 1.5 1.5 0 0.15 N I 21 N "LVK12-SHUNT"
+$PAD
+Sh "1" R 1.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "VLOAD+"
+Po -1.375 -0.7
+$EndPAD
+$PAD
+Sh "4" R 1.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "VLOAD_MEAS"
+Po -1.375 0.7
+$EndPAD
+$PAD
+Sh "2" R 1.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "VLOAD-"
+Po 1.375 -0.7
+$EndPAD
+$PAD
+Sh "3" R 1.75 1.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "GND"
+Po 1.375 0.7
+$EndPAD
+$EndMODULE lvk12
 $MODULE med_test_hole
 Po 0 0 0 15 527C23E6 00000000 ~~
 Li med_test_hole
@@ -1435,4 +1474,70 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE smd_simple_pad
+$MODULE sot23-8
+Po 0 0 0 15 52AFB9FD 00000000 ~~
+Li sot23-8
+Sc 0
+AR 
+Op 0 0 0
+T0 1.651 -1.397 0.75 0.75 0 0.15 N I 21 N "sot23-8"
+T1 1.778 4.191 0.75 0.75 0 0.15 N V 21 N "VAL**"
+DC -0.762 3.556 -0.635 3.429 0.15 21
+$PAD
+Sh "1" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.6
+$EndPAD
+$PAD
+Sh "2" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 2.6
+$EndPAD
+$PAD
+Sh "3" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.9 2.6
+$EndPAD
+$PAD
+Sh "4" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.85 2.6
+$EndPAD
+$PAD
+Sh "5" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.85 0
+$EndPAD
+$PAD
+Sh "6" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.9 0
+$EndPAD
+$PAD
+Sh "7" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0
+$EndPAD
+$PAD
+Sh "8" R 0.45 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE sot23-8
 $EndLIBRARY
