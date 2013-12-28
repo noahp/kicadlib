@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  12/16/2013 9:42:32 PM
+PCBNEW-LibModule-V1  Sat 28 Dec 2013 12:07:56 PM EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -26,6 +26,7 @@ oled_fpc_30
 plcc2
 smd_simple_pad
 sot23-8
+usb_a_male_M701-280442
 $EndINDEX
 $MODULE 16_pin_double
 Po 0 0 0 15 527FE70C 00000000 ~~
@@ -1540,4 +1541,70 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE sot23-8
+$MODULE usb_a_male_M701-280442
+Po 0 0 0 15 52BF0567 00000000 ~~
+Li usb_a_male_M701-280442
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -7.8 0.75 0.75 0 0.15 N I 21 N "usb_a_male_M701-280442"
+T1 0 8 0.75 0.75 0 0.15 N V 21 N "VAL**"
+DC 5.5 4.5 5.5 4.6 0.15 21
+$PAD
+Sh "5" C 1.7 1.7 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.25
+$EndPAD
+$PAD
+Sh "5" C 1.7 1.7 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 2.25
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 2.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -5.6
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 2.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 5.6
+$EndPAD
+$PAD
+Sh "1" R 1.95 1.02 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 3.5
+$EndPAD
+$PAD
+Sh "4" R 1.95 1.02 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 -3.5
+$EndPAD
+$PAD
+Sh "2" R 1.95 1.02 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 1
+$EndPAD
+$PAD
+Sh "3" R 1.95 1.02 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 -1
+$EndPAD
+$EndMODULE usb_a_male_M701-280442
 $EndLIBRARY
