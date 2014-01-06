@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 28 Dec 2013 12:07:56 PM EST
+PCBNEW-LibModule-V1  1/6/2014 15:11:29
 # encoding utf-8
 Units mm
 $INDEX
@@ -1202,13 +1202,13 @@ Po 1.375 0.7
 $EndPAD
 $EndMODULE lvk12
 $MODULE med_test_hole
-Po 0 0 0 15 527C23E6 00000000 ~~
+Po 0 0 0 15 52CB0DEF 00000000 ~~
 Li med_test_hole
 Sc 0
 AR 
 Op 0 0 0
 T0 0 -2 0.75 0.75 0 0.15 N V 21 N "med_test_hole"
-T1 0 2 0.75 0.75 0 0.15 N V 21 N "VAL**"
+T1 0 1.778 0.75 0.75 0 0.15 N V 21 N "VAL**"
 $PAD
 Sh "1" C 2 2 0 0 0
 Dr 1.6 0 0
