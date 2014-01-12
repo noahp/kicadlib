@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  1/7/2014 9:05:38
+PCBNEW-LibModule-V1  Sun 12 Jan 2014 05:45:12 PM EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -26,6 +26,7 @@ oled_fpc_30
 plcc2
 smd_simple_pad
 sot23-8
+spst_pushbutton_smd
 usb_a_male_M701-280442
 usb_micro_b_smt
 $EndINDEX
@@ -1550,6 +1551,43 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE sot23-8
+$MODULE spst_pushbutton_smd
+Po 0 0 0 15 52D31AF1 00000000 ~~
+Li spst_pushbutton_smd
+Sc 0
+AR 
+Op 0 0 0
+T0 3.81 -2.54 1.5 1.5 0 0.15 N I 21 N "spst_pushbutton_smd"
+T1 3.81 6.35 0.75 0.75 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.6 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1.6 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4.5
+$EndPAD
+$PAD
+Sh "1" R 1.6 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 0
+$EndPAD
+$PAD
+Sh "2" R 1.6 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 4.5
+$EndPAD
+$EndMODULE spst_pushbutton_smd
 $MODULE usb_a_male_M701-280442
 Po 0 0 0 15 52BF0567 00000000 ~~
 Li usb_a_male_M701-280442
