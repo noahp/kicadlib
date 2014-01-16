@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 12 Jan 2014 05:45:12 PM EST
+PCBNEW-LibModule-V1  1/15/2014 9:10:28 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -22,6 +22,7 @@ inductor_SRN5020
 jmp_small
 lvk12
 med_test_hole
+mma8652
 oled_fpc_30
 plcc2
 smd_simple_pad
@@ -1227,6 +1228,86 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE med_test_hole
+$MODULE mma8652
+Po 0 0 0 15 52D73F93 00000000 ~~
+Li mma8652
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.2 1 1 0 0.15 N I 21 N "mma8652"
+T1 0 2 0.75 0.75 0 0.15 N V 21 N "VAL**"
+DC -1.85 1.1 -1.8 1.15 0.15 21
+$PAD
+Sh "1" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.8
+$EndPAD
+$PAD
+Sh "2" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.4
+$EndPAD
+$PAD
+Sh "3" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0
+$EndPAD
+$PAD
+Sh "4" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.4
+$EndPAD
+$PAD
+Sh "5" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.8
+$EndPAD
+$PAD
+Sh "6" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.8
+$EndPAD
+$PAD
+Sh "7" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 -0.4
+$EndPAD
+$PAD
+Sh "8" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0
+$EndPAD
+$PAD
+Sh "9" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.4
+$EndPAD
+$PAD
+Sh "10" R 1 0.225 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0.8
+$EndPAD
+$EndMODULE mma8652
 $MODULE oled_fpc_30
 Po 0 0 0 15 527FE5BB 00000000 ~~
 Li oled_fpc_30
