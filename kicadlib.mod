@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  1/16/2014 9:03:30 PM
+PCBNEW-LibModule-V1  1/16/2014 9:20:39 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -1229,83 +1229,83 @@ Po 0 0
 $EndPAD
 $EndMODULE med_test_hole
 $MODULE mma8652
-Po 0 0 0 15 52D73F93 00000000 ~~
+Po 0 0 0 15 52D89372 00000000 ~~
 Li mma8652
 Sc 0
-AR 
+AR /52D73DD3
 Op 0 0 0
-T0 0 -3.2 1 1 0 0.15 N I 21 N "mma8652"
-T1 0 2 0.75 0.75 0 0.15 N V 21 N "VAL**"
-DC -1.85 1.1 -1.8 1.15 0.15 21
+T0 0 1.524 0.65 0.65 0 0.12 N V 21 N "U1"
+T1 0 2 0.75 0.75 0 0.15 N I 21 N "MMA8652"
+DC -1.85 -1.15 -1.8 -1.1 0.15 21
 $PAD
 Sh "1" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -1.1 0.8
+Ne 7 "VDD"
+Po -1.1 -0.8
 $EndPAD
 $PAD
 Sh "2" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -1.1 0.4
+Ne 5 "SCL"
+Po -1.1 -0.4
 $EndPAD
 $PAD
 Sh "3" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "INT1"
 Po -1.1 0
 $EndPAD
 $PAD
 Sh "4" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -1.1 -0.4
+Ne 4 "N-000002"
+Po -1.1 0.4
 $EndPAD
 $PAD
 Sh "5" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -1.1 -0.8
+Ne 3 "INT2"
+Po -1.1 0.8
 $EndPAD
 $PAD
 Sh "6" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 1.1 -0.8
+Ne 1 "GND"
+Po 1.1 0.8
 $EndPAD
 $PAD
 Sh "7" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 1.1 -0.4
+Ne 1 "GND"
+Po 1.1 0.4
 $EndPAD
 $PAD
 Sh "8" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "VDDIO"
 Po 1.1 0
 $EndPAD
 $PAD
 Sh "9" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 1.1 0.4
+Ne 1 "GND"
+Po 1.1 -0.4
 $EndPAD
 $PAD
 Sh "10" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 1.1 0.8
+Ne 6 "SDA"
+Po 1.1 -0.8
 $EndPAD
 $EndMODULE mma8652
 $MODULE oled_fpc_30
