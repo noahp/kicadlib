@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/25/2014 8:45:23 PM
+PCBNEW-LibModule-V1  2/25/2014 8:47:54 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -636,7 +636,7 @@ Po 0 -2.7
 $EndPAD
 $EndMODULE MCP73831
 $MODULE MKL02_QFN16
-Po 0 0 0 15 530D4509 00000000 ~~
+Po 0 0 0 15 530D47C1 00000000 ~~
 Li MKL02_QFN16
 Sc 0
 AR 
@@ -649,14 +649,14 @@ Sh "11" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.95 0.5
+Po 2.7 -0.5
 $EndPAD
 $PAD
 Sh "12" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.95 1.5
+Po 2.7 0
 $EndPAD
 $PAD
 Sh "10" R 1.5 0.25 0 0 1800
@@ -733,14 +733,14 @@ Sh "3" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -2.5
+Po 0 -1.5
 $EndPAD
 $PAD
 Sh "4" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -1.5
+Po 0 -1
 $EndPAD
 $PAD
 Sh "2" R 1.5 0.25 0 0 0
