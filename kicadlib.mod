@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/25/2014 8:36:11 PM
+PCBNEW-LibModule-V1  2/25/2014 8:45:23 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -32,6 +32,7 @@ smd_simple_pad
 sot23-8
 spst_pushbutton_smd
 usb_a_male_M701-280442
+usb_female_a
 usb_micro_b_smt
 $EndINDEX
 $MODULE 16_pin_double
@@ -2033,6 +2034,57 @@ Ne 0 ""
 Po 4 -1
 $EndPAD
 $EndMODULE usb_a_male_M701-280442
+$MODULE usb_female_a
+Po 0 0 0 15 530D4731 00000000 ~~
+Li usb_female_a
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "usb_female_a"
+T1 0 3.175 1.5 1.5 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" C 1.35 1.35 0 0 0
+Dr 0.92 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "3" C 1.35 1.35 0 0 0
+Dr 0.92 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "1" C 1.35 1.35 0 0 0
+Dr 0.92 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 0
+$EndPAD
+$PAD
+Sh "4" C 1.35 1.35 0 0 0
+Dr 0.92 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 2.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.57 2.71
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 2.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.57 2.71
+$EndPAD
+$EndMODULE usb_female_a
 $MODULE usb_micro_b_smt
 Po 0 0 0 15 52CC0980 00000000 ~~
 Li usb_micro_b_smt
