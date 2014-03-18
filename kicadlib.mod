@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  2/25/2014 8:47:54 PM
+PCBNEW-LibModule-V1  3/17/2014 8:33:01 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,6 +8,7 @@ ARM_10_PIN
 ARM_10_PIN_SMT
 ARM_20PIN_EDGE_BOTH
 ARM_20_PIN_EDGE
+CDRH4D18C_inductor
 LP3985
 MCP1640
 MCP73831
@@ -26,8 +27,11 @@ jmp_small
 lvk12
 med_test_hole
 mma8652
+nrf24_8pin
 oled_fpc_30
 plcc2
+sc59
+si7020_dfn6
 smd_simple_pad
 sot23-8
 spst_pushbutton_smd
@@ -496,6 +500,29 @@ Op 0 0 0
 T0 0 -10.16 1 1 0 0.15 N V 21 N "ARM_20_PIN_EDGE"
 T1 0 5.08 1 1 0 0.15 N V 21 N "VAL**"
 $EndMODULE ARM_20_PIN_EDGE
+$MODULE CDRH4D18C_inductor
+Po 0 0 0 15 53279175 00000000 ~~
+Li CDRH4D18C_inductor
+Sc 0
+AR 
+Op 0 0 0
+T0 2.7 -3.15 1 1 0 0.15 N V 21 N "CDRH4D18C_inductor"
+T1 3.225 2.875 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.25 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1.25 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.25 0
+$EndPAD
+$EndMODULE CDRH4D18C_inductor
 $MODULE LP3985
 Po 0 0 0 15 516ABD7E 00000000 ~~
 Li LP3985
@@ -1607,6 +1634,71 @@ Ne 6 "SDA"
 Po 1.1 -0.8
 $EndPAD
 $EndMODULE mma8652
+$MODULE nrf24_8pin
+Po 0 0 0 15 5327907C 00000000 ~~
+Li nrf24_8pin
+Sc 0
+AR 
+Op 0 0 0
+T0 3.556 -5.08 1 1 0 0.15 N I 21 N "nrf24_8pin"
+T1 4.064 2.54 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.54
+$EndPAD
+$PAD
+Sh "3" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "4" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -2.54
+$EndPAD
+$PAD
+Sh "5" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "6" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -2.54
+$EndPAD
+$PAD
+Sh "7" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "8" C 1.75 1.75 0 0 0
+Dr 1.02 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -2.54
+$EndPAD
+$EndMODULE nrf24_8pin
 $MODULE oled_fpc_30
 Po 0 0 0 15 527FE5BB 00000000 ~~
 Li oled_fpc_30
@@ -1849,6 +1941,95 @@ Ne 0 ""
 Po -1.4 0
 $EndPAD
 $EndMODULE plcc2
+$MODULE sc59
+Po 0 0 0 15 5327943B 00000000 ~~
+Li sc59
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.85 1 1 0 0.15 N I 21 N "sc59"
+T1 0 2.85 0.75 0.75 0 0.12 N V 21 N "VAL**"
+DC -3.25 -1.7 -3.3 -1.75 0.15 21
+$PAD
+Sh "3" R 1 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 0.95
+$EndPAD
+$PAD
+Sh "1" R 1 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 -0.95
+$EndPAD
+$EndMODULE sc59
+$MODULE si7020_dfn6
+Po 0 0 0 15 53279306 00000000 ~~
+Li si7020_dfn6
+Sc 0
+AR 
+Op 0 0 0
+T0 1.5 -2 1 1 0 0.15 N V 21 N "si7020_dfn6"
+T1 2 3.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" O 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "3" R 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2
+$EndPAD
+$PAD
+Sh "4" R 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 2
+$EndPAD
+$PAD
+Sh "5" R 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 1
+$EndPAD
+$PAD
+Sh "6" R 0.85 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "" R 1.2 1.8 0 0 0
+Dr 0.85 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.5 1
+$EndPAD
+$EndMODULE si7020_dfn6
 $MODULE smd_simple_pad
 Po 0 0 0 15 5259A669 00000000 ~~
 Li smd_simple_pad
