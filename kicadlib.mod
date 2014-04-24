@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  3/17/2014 8:33:01 PM
+PCBNEW-LibModule-V1  4/23/2014 8:33:39 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -33,6 +33,7 @@ plcc2
 sc59
 si7020_dfn6
 smd_simple_pad
+sot23-5_noah
 sot23-8
 spst_pushbutton_smd
 usb_a_male_M701-280442
@@ -2046,6 +2047,51 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE smd_simple_pad
+$MODULE sot23-5_noah
+Po 0 0 0 15 535859F7 00000000 ~~
+Li sot23-5_noah
+Sc 0
+AR 
+Op 0 0 0
+T0 1.397 2.286 0.75 0.75 0 0.12 N V 21 N "sot23-5_noah"
+T1 1.397 -2.286 0.75 0.75 0 0.12 N I 21 N "VAL**"
+DC -1.143 -1.651 -1.0795 -1.5875 0.15 21
+$PAD
+Sh "1" R 1.3 0.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.95
+$EndPAD
+$PAD
+Sh "2" R 1.3 0.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 1.3 0.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.95
+$EndPAD
+$PAD
+Sh "4" R 1.3 0.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 0.95
+$EndPAD
+$PAD
+Sh "5" R 1.3 0.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 -0.95
+$EndPAD
+$EndMODULE sot23-5_noah
 $MODULE sot23-8
 Po 0 0 0 15 52AFB9FD 00000000 ~~
 Li sot23-8
@@ -2216,7 +2262,7 @@ Po 4 -1
 $EndPAD
 $EndMODULE usb_a_male_M701-280442
 $MODULE usb_female_a
-Po 0 0 0 15 530D4731 00000000 ~~
+Po 0 0 0 15 53585BDE 00000000 ~~
 Li usb_female_a
 Sc 0
 AR 
@@ -2252,14 +2298,14 @@ Ne 0 ""
 Po 3.5 0
 $EndPAD
 $PAD
-Sh "4" C 3 3 0 0 0
+Sh "5" C 3 3 0 0 0
 Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.57 2.71
 $EndPAD
 $PAD
-Sh "4" C 3 3 0 0 0
+Sh "5" C 3 3 0 0 0
 Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
@@ -2267,53 +2313,53 @@ Po 6.57 2.71
 $EndPAD
 $EndMODULE usb_female_a
 $MODULE usb_micro_b_smt
-Po 0 0 0 15 52CC0980 00000000 ~~
+Po 0 0 0 15 53585A40 00000000 ~~
 Li usb_micro_b_smt
 Sc 0
-AR 
+AR /53585610
 Op 0 0 0
-T0 0 -5.588 1 1 0 0.15 N I 21 N "usb_micro_b_smt"
-T1 0 2.159 0.75 0.75 0 0.15 N V 21 N "VAL**"
+T0 0 -5.588 0.75 0.75 0 0.12 N V 21 N "J1"
+T1 0 2.159 0.75 0.75 0 0.15 N I 21 N "USB_MICRO_B"
 $PAD
 Sh "6" R 1.9 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 1.2 0
 $EndPAD
 $PAD
 Sh "6" R 1.9 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -1.2 0
 $EndPAD
 $PAD
 Sh "6" R 1.8 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 3.8 0
 $EndPAD
 $PAD
 Sh "6" R 1.8 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -3.8 0
 $EndPAD
 $PAD
 Sh "6" R 2.1 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po -3.1 -2.55
 $EndPAD
 $PAD
 Sh "6" R 2.1 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 3.1 -2.55
 $EndPAD
 $PAD
@@ -2341,14 +2387,14 @@ $PAD
 Sh "5" R 0.4 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "GND"
 Po 1.3 -3
 $EndPAD
 $PAD
 Sh "1" R 0.4 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "/+5V"
 Po -1.3 -3
 $EndPAD
 $EndMODULE usb_micro_b_smt
