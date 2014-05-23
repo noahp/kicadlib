@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  4/23/2014 8:33:39 PM
+PCBNEW-LibModule-V1  5/22/2014 8:11:56 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -664,121 +664,121 @@ Po 0 -2.7
 $EndPAD
 $EndMODULE MCP73831
 $MODULE MKL02_QFN16
-Po 0 0 0 15 530D47C1 00000000 ~~
+Po 0 0 0 15 537E9249 00000000 ~~
 Li MKL02_QFN16
 Sc 0
 AR 
 Op 0 0 0
 T0 0 -7.62 1.5 1.5 0 0.15 N V 21 N "MKL02_QFN16"
 T1 0 6.35 1.5 1.5 0 0.15 N V 21 N "VAL**"
-T2 -1 0.7 0.75 0.75 900 0.12 N V 21 N "1"
+T2 -1.27 -2.286 0.75 0.75 0 0.12 N V 21 N "1"
 $PAD
-Sh "11" R 1.5 0.25 0 0 1800
+Sh "10" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.7 -0.5
 $EndPAD
 $PAD
-Sh "12" R 1.5 0.25 0 0 1800
+Sh "9" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.7 0
 $EndPAD
 $PAD
-Sh "10" R 1.5 0.25 0 0 1800
+Sh "11" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.7 -1
 $EndPAD
 $PAD
-Sh "9" R 1.5 0.25 0 0 1800
+Sh "12" R 1.5 0.25 0 0 1800
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.7 -1.5
 $EndPAD
 $PAD
-Sh "14" R 1.5 0.25 0 0 900
+Sh "7" R 1.5 0.25 0 0 900
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.6 0.6
 $EndPAD
 $PAD
-Sh "13" R 1.5 0.25 0 0 900
+Sh "8" R 1.5 0.25 0 0 900
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.1 0.6
 $EndPAD
 $PAD
-Sh "15" R 1.5 0.25 0 0 900
+Sh "6" R 1.5 0.25 0 0 900
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.1 0.6
 $EndPAD
 $PAD
-Sh "16" R 1.5 0.25 0 0 900
+Sh "5" R 1.5 0.25 0 0 900
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.6 0.6
 $EndPAD
 $PAD
-Sh "7" R 1.5 0.25 0 0 2700
+Sh "14" R 1.5 0.25 0 0 2700
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.6 -2.1
 $EndPAD
 $PAD
-Sh "8" R 1.5 0.25 0 0 2700
+Sh "13" R 1.5 0.25 0 0 2700
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.1 -2.1
 $EndPAD
 $PAD
-Sh "6" R 1.5 0.25 0 0 2700
+Sh "15" R 1.5 0.25 0 0 2700
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.1 -2.1
 $EndPAD
 $PAD
-Sh "5" R 1.5 0.25 0 0 2700
+Sh "16" R 1.5 0.25 0 0 2700
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.6 -2.1
 $EndPAD
 $PAD
-Sh "3" R 1.5 0.25 0 0 0
+Sh "1" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -1.5
 $EndPAD
 $PAD
-Sh "4" R 1.5 0.25 0 0 0
+Sh "2" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -1
 $EndPAD
 $PAD
-Sh "2" R 1.5 0.25 0 0 0
+Sh "3" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 -0.5
 $EndPAD
 $PAD
-Sh "1" R 1.5 0.25 0 0 0
+Sh "4" R 1.5 0.25 0 0 0
 Dr 0 -0.5 0
 At SMD N 00888000
 Ne 0 ""
@@ -790,13 +790,6 @@ Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 1.35 -0.75
-$EndPAD
-$PAD
-Sh "" C 0.2 0.2 0 0 0
-Dr 0 0 0
-At SMD N 00880001
-Ne 0 ""
-Po 0.75 -0.15
 $EndPAD
 $EndMODULE MKL02_QFN16
 $MODULE MKL24Z64VFM4
