@@ -1,0 +1,8 @@
+(module ARM_20_PIN_EDGE (layer F.Cu) (tedit 52E9A388)
+  (fp_text reference ARM_20_PIN_EDGE (at 0 -10.16) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 5.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
