@@ -1,0 +1,12 @@
+(module spst_pushbutton_smd (layer F.Cu) (tedit 52D31AF1)
+  (fp_text reference spst_pushbutton_smd (at 3.81 -2.54) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 3.81 6.35) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 4.5) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 8.4 0) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 8.4 4.5) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
+)
