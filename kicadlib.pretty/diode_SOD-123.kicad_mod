@@ -1,8 +1,8 @@
-(module diode_SOD-123 (layer F.Cu) (tedit 54FDF2EC)
+(module diode_SOD-123 (layer F.Cu) (tedit 55032B74)
   (fp_text reference diode_SOD-123 (at 2.032 -2.032) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
-  (fp_text value VAL** (at 2.032 2.032) (layer F.SilkS)
+  (fp_text value VAL** (at 2.032 2.032) (layer F.Fab) hide
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
   (fp_line (start 1.27 -0.762) (end 1.27 0.762) (layer F.SilkS) (width 0.15))
