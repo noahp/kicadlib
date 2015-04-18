@@ -1,8 +1,8 @@
-(module HC-07_bluetooth (layer F.Cu) (tedit 551C260F)
-  (fp_text reference HC-07_bluetooth (at -3.4 10.5 90) (layer F.SilkS) hide
+(module HC-07_bluetooth (layer F.Cu) (tedit 5532689B)
+  (fp_text reference HC-07_bluetooth (at 7.4 22.2) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
-  (fp_text value VAL** (at 16.1 21) (layer F.SilkS)
+  (fp_text value VAL** (at -2.8 9.8 90) (layer F.Fab) hide
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
   (fp_text user 1 (at -1.948 -0.082) (layer F.SilkS)
