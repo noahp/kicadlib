@@ -15,4 +15,9 @@
   (pad 8 thru_hole circle (at 1.27 1.27) (size 1 1) (drill 0.70104) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 0 2.54) (size 1 1) (drill 0.70104) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at 1.27 2.54) (size 1 1) (drill 0.70104) (layers *.Cu *.Mask F.SilkS))
+  (model ../../../../../../../../../../Users/npendlet/Desktop/misc/temp/arm_20to10/kicadlib/kicadlib.pretty/models/ARM_10_PIN_TH_SHRD.wrl
+    (at (xyz 0.025 0 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz -90 0 0))
+  )
 )
