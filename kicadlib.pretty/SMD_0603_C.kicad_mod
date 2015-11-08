@@ -11,9 +11,9 @@
   (fp_line (start 0.508 0.6985) (end -2.032 0.6985) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -1.524 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask))
-  (model smd/Capacitors/C0603.wrl
+  (model Capacitors_SMD.3dshapes/C_0603.wrl
     (at (xyz -0.029528 0 0))
-    (scale (xyz 0.4 0.4 0.4))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
