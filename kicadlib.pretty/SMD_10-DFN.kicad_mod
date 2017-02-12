@@ -1,8 +1,8 @@
-(module SMD_10-DFN (layer F.Cu) (tedit 58A0D8BE)
+(module SMD_10-DFN (layer F.Cu) (tedit 58A0E3C5)
   (fp_text reference REF** (at 0 2) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
-  (fp_text value SMD_10-DFN (at 0 -2) (layer F.Fab)
+  (fp_text value SMD_10-DFN (at 0 -2) (layer F.Fab) hide
     (effects (font (size 0.75 0.75) (thickness 0.12)))
   )
   (pad 1 smd oval (at -1.4 -1) (size 0.69 0.28) (layers F.Cu F.Paste F.Mask))
